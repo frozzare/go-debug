@@ -77,7 +77,7 @@ func checkNamespaceStatus(namespace string) bool {
 		return true
 	}
 
-	if (stringInSlice(namespace, values)) {
+	if stringInSlice(namespace, values) {
 		return true
 	}
 
@@ -131,7 +131,7 @@ func useColors() bool {
 func useMS() (string, bool) {
 	value := os.Getenv("DEBUG_TIME")
 
-	if (len(value) == 0 || value == "ms") {
+	if len(value) == 0 || value == "ms" {
 		return "ms", true
 	}
 
