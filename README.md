@@ -1,4 +1,4 @@
-# go-debug [![Build Status](https://travis-ci.org/frozzare/go-debug.svg?branch=master)](https://travis-ci.org/frozzare/go-debug)
+# go-debug
 
 This is a go version of the node module [debug](https://github.com/tj/debug). It don't have all the features that the node module have and it have some own features like `DEBUG_TIME`.
 
